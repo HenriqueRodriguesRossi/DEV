@@ -1,0 +1,22 @@
+#Noticias
+
+API baseada em uma prova da empresa Devmedia, 
+com o intuito de cadastrar notícias pesquisá- 
+-las por título e categoria. Abaixo vou deixar 
+os endpoints da aplicação e suas respectivas
+funcionalidades: 
+
+   - /cadastrarNoticia (Método POST) 
+        Cadastro de notícias no banco de 
+        dados 
+
+   - /listaPorTitulo (Método GET) 
+         Lista retorna notícias com títulos 
+         semelhantes ao termo digitado 
+
+    - /listaPorCategoria (Método GET) 
+         Lista notícias com categorias 
+         semelhantes ao termo digitado 
+
+Tecnologias utilizadas: Node.js + Express.js
++ MongoDb
